@@ -20,7 +20,7 @@ def main():
         st.code(get_file_content_as_string("app.py"))
 
 def get_file_content_as_string(path):
-    url = 'https://raw.githubusercontent.com/SaurabhKaperwan/Speech-Emotion-Recognition/main/Frontend/' + path
+     url = 'https://raw.githubusercontent.com/rakshit389/Speech_Emotion_Recognition/main/Frontend/app.py'
     response = urllib.request.urlopen(url)
     return response.read().decode("utf-8")
 
