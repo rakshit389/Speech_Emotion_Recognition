@@ -1,5 +1,4 @@
 tensorflow-cpu
-python==3.8.10
 numpy==1.19.5
 streamlit==0.80.0
 librosa==0.8.0
